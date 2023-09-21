@@ -4,7 +4,9 @@ I use langchain and the textloader function, feeding League lore into ChatGPT, t
 
 ### How to use
 Download the repository, and pass your prompt in the command line.
+
 Example on my machine: 
+
 py leagueGPT.py "Prompt_goes_here"
 
 ### Example
