@@ -1,5 +1,11 @@
 # Personal League of Legends Lore Writer
-I use langchain and the textloader, feeding League lore into ChatGPT, to produce new stories based off prompts I give it.
+### Summary
+I use langchain and the textloader function, feeding League lore into ChatGPT, to produce new stories based off prompts I give it. I used portions of Riot API requests with Cassiopeia to fetch mini champion lore along with ally and enemy tips. For the majority of the lore, I web-scraped the official biographies of each champion on the League of Legends website.
+
+### How to use
+Download the repository, and pass your prompt in the command line.
+Example on my machine: 
+py leagueGPT.py "Prompt_goes_here"
 
 ### Example
 Prompt: Write a concise story about Heimerdinger and Bel'Veth
