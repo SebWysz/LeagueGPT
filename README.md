@@ -5,6 +5,8 @@ I use langchain and the textloader function, feeding League lore into ChatGPT, t
 I also made a simple website front to the LLM using django.
 
 ### How to use
+You will need your own OpenAI API key, which I have under the variable OPENAI_APIKEY in constants.py which I didn't upload for obvious reasons.
+
 Using the command line function, download the repository, and pass your prompt in the command line.  
 Example on my machine:  
 py leagueGPT.py "Prompt_goes_here"
