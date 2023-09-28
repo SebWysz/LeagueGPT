@@ -2,11 +2,17 @@
 
 ### Summary
 I use langchain and the textloader function, feeding League lore into ChatGPT, to produce new stories based off prompts I give it. I used portions of Riot API requests with Cassiopeia to fetch mini champion lore along with ally and enemy tips. For the majority of the lore, I web-scraped the official biographies of each champion on the League of Legends website.
+I also made a simple website front to the LLM using django.
 
 ### How to use
-Download the repository, and pass your prompt in the command line.  
+Using the command line function, download the repository, and pass your prompt in the command line.  
 Example on my machine:  
 py leagueGPT.py "Prompt_goes_here"
+
+Using the website:  
+py manage.py runserver  
+Navigate to wherever the local host is in a browser, mine is typically at 127.0.0.1:8000  
+Put your prompt in the appropriate spot, wait a minute and BOOM, the website should update with the LLM's output.
 
 ### Example
 Prompt: Write a concise story about Heimerdinger and Bel'Veth
